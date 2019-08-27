@@ -1,8 +1,9 @@
 {
     "for循环": {
+        "scope": "javascript",
         "prefix": "for",
         "body": [
-            "for (let $(2:item) of $(1:array)) {",
+            "for (let $(2:$item) of $(1:$array)) {",
             "\t$0",
             "}"
         ],
