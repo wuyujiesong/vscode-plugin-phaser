@@ -1,12 +1,58 @@
 {
-    "for循环": {
+    "new phaser": {
         "scope": "javascript",
-        "prefix": "for",
+        "prefix": "np",
         "body": [
-            "for (let $(2:$item) of $(1:$array)) {",
-            "\t$0",
-            "}"
+            "new Phaser.Game(800, 600, Phaser.CANVAS, '', { preload, create, update })"
         ],
-        "description": "for循环"
+        "description": "new phaser"
+    },
+    "game.load.image": {
+        "scope": "javascript",
+        "prefix": "gli",
+        "body": [
+            "game.load.image('', '')"
+        ],
+        "description": "game.load.image"
+    },
+    "game.load.spritesheet": {
+        "scope": "javascript",
+        "prefix": "gls",
+        "body": [
+            "game.load.spritesheet('', '', 32, 48)"
+        ],
+        "description": "game.load.spritesheet"
+    },
+    "game.physics.startSystem": {
+        "scope": "javascript",
+        "prefix": "gps",
+        "body": [
+            "game.physics.startSystem(Phaser.Physics.ARCADE)"
+        ],
+        "description": "game.physics.startSystem"
+    },
+    "game.add.sprite": {
+        "scope": "javascript",
+        "prefix": "gas",
+        "body": [
+            "game.add.sprite(0, 0, '')"
+        ],
+        "description": "game.add.sprite"
+    },
+    "game.add.group": {
+        "scope": "javascript",
+        "prefix": "gag",
+        "body": [
+            "game.add.group()"
+        ],
+        "description": "game.add.group"
+    },
+    "game.physics.arcade.enable": {
+        "scope": "javascript",
+        "prefix": "gpae",
+        "body": [
+            "game.physics.arcade.enable($1)"
+        ],
+        "description": "game.physics.arcade.enable"
     }
 }
