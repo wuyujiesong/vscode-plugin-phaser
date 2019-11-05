@@ -66,8 +66,637 @@
     "Text.": {
         "scope": "javascript",
         "prefix": "Text.",
-        "body": [
-            "${1|align,alive,anchor,angle,animations,autoCull,autoRound,blendMode,body,bottom,boundsAlignH,boundsAlignV,cameraOffset,canvas,centerX,centerY,checkWorldBounds,children,colors,components,context,cropRect,cssFont,damage,data,debug,deltaX,deltaY,deltaZ,destroyPhase,events,exists,fill,fixedToCamera,font,,fontSize,fontStyle,fontStyles,fontVariant,fontWeight,fontWeights,frame,frameName,fresh,game,heal,health,height,ignoreChildInput,inCamera,inputEnabled,inWorld,left,lifespan,lineSpacing,maxHealth,name,offsetX,offsetY,outOfBoundsKill,outOfCameraBoundsKill,padding,pendingDestroy,physicsType,previousPosition,previousRotation,resolution,right,scaleMax,scaleMin,setHealth,shader,shadowBlur,shadowColor,shadowFill,shadowOffsetX,shadowOffsetY,shadowStroke,smoothed,stroke,strokeColors,strokeThickness,tabs,text,texture,tint,tintedTexture,top,transformCallback,transformCallbackContext,type,useAdvancedWrap,width,wordWrap,wordWrapWidth,world,x,y,z,addChild(),addChildAt(),addColor(),addFontStyle(),addFontWeight(),addStrokeColor(),alignIn(),alignTo(),bringToTop(),clearColors(),clearFontValues(),contains(),crop(),destroy(),getBounds(),getChildAt(),getChildIndex(),getLocalBounds(),kill(),loadTexture(),moveDown(),moveUp(),overlap(),parseList(),play(),precalculateWordWrap(),removeChild(),removeChildAt(),reset(),resetFrame(),resizeFrame(),revive(),sendToBack(),setChildIndex(),setFrame(),setScaleMinMax(),setShadow(),setStyle(),setText(),setTextBounds(),setTexture(),swapChildren(),update(),updateCrop(),updateShadow(),|}"
-        ]
+        "body": "Text.${1|align,alive,canvas,centerX,deltaY,events,deltaZ,fixedToCamera,fill,destroyPhase,components,context,data,debug,deltaX,cssFont,damage,cropRect,centerY,checkWorldBounds,children,colors,angle,autoRound,boundsAlignH,boundsAlignV,cameraOffset,body,bottom,animations,autoCull,blendMode,fill,fixedToCamera,font,fontSize,fontStyle,fontStyles,fontVariant,fontWeight,fontWeights,frame,frameName,fresh,game,heal,health,height,ignoreChildInput,inCamera,inputEnabled,inWorld,left,lifespan,lineSpacing,maxHealth,name,offsetX,offsetY,outOfBoundsKill,outOfCameraBoundsKill,padding,pendingDestroy,physicsType,previousPosition,previousRotation,resolution,right,scaleMax,scaleMin,setHealth,shader,shadowBlur,shadowColor,shadowFill,shadowOffsetX,shadowOffsetY,shadowStroke,smoothed,stroke,strokeColors,strokeThickness,tabs,text,texture,tint,tintedTexture,top,transformCallback,transformCallbackContext,type,useAdvancedWrap,width,wordWrap,wordWrapWidth,world,x,y,z,addChild,addChildAt,addColor,addFontStyle,addFontWeight,addStrokeColor,alignIn,alignTo,bringToTop,clearColors,clearFontValues,contains,crop,destroy,getBounds,getChildAt,getChildIndex,getLocalBounds,kill,loadTexture,moveDown,moveUp,overlap,parseList,play,precalculateWordWrap,removeChild,removeChildAt,reset,resetFrame,resizeFrame,revive,sendToBack,setChildIndex,setFrame,setScaleMinMax,setShadow|}",
+        "description": "Text属性"
+    },
+    "add": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "add(${1})",
+        "description": "add方法"
+    },
+    "antialias": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "antialias",
+        "description": "antialias属性"
+    },
+    "cache": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "cache",
+        "description": "cache属性"
+    },
+    "camera": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "camera",
+        "description": "camera属性"
+    },
+    "canvas": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "canvas",
+        "description": "canvas属性"
+    },
+    "clearBeforeRender": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "clearBeforeRender",
+        "description": "clearBeforeRender属性"
+    },
+    "config": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "config",
+        "description": "config属性"
+    },
+    "context": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "context",
+        "description": "context"
+    },
+    "create": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "create",
+        "description": "create"
+    },
+    "debug": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "debug",
+        "description": "debug"
+    },
+    "device": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "device",
+        "description": "device"
+    },
+    "forceSingleUpdate": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "forceSingleUpdate",
+        "description": "forceSingleUpdate"
+    },
+    "fpsProblemNotifier": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "fpsProblemNotifier()",
+        "description": "游戏非常吃力请运行此方法"
+    },
+    "height": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "height",
+        "description": "高度"
+    },
+    "id": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "id",
+        "description": "id"
+    },
+    "input": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "input",
+        "description": "input"
+    },
+    "isBooted": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "isBooted",
+        "description": "isBooted"
+    },
+    "isRunning": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "isRunning",
+        "description": "isRunning(Bool类型)"
+    },
+    "load": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "load(${1})",
+        "description": "load"
+    },
+    "lockRender": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "lockRender",
+        "description": "Bool"
+    },
+    "make": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "make",
+        "description": "make"
+    },
+    "math": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "math",
+        "description": "math"
+    },
+    "net": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "net",
+        "description": "网络"
+    },
+    "onBlur": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "onBlur",
+        "description": "失去焦点"
+    },
+    "onFocus": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "onFocus",
+        "description": "获得焦点"
+    },
+    "onPause": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "onPause",
+        "description": "暂停"
+    },
+    "onResume": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "onResume",
+        "description": "游戏继续"
+    },
+    "particles": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "particles",
+        "description": "particles"
+    },
+    "parent": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "parent",
+        "description": "parent"
+    },
+    "paused": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "paused",
+        "description": "暂停状态"
+    },
+    "pendingStep": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "pendingStep",
+        "description": "pendingStep"
+    },
+    "physics": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "physics",
+        "description": "physics"
+    },
+    "physicsConfig": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "physicsConfig",
+        "description": "physicsConfig"
+    },
+    "plugins": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "plugins",
+        "description": "插件"
+    },
+    "preserveDrawingBuffer": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "preserveDrawingBuffer",
+        "description": "preserveDrawingBuffer"
+    },
+    "renderType": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "renderType",
+        "description": "只读属性renderType"
+    },
+    "resolution": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "resolution",
+        "description": "只读属性resolution"
+    },
+    "rnd": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "rnd",
+        "description": "rnd"
+    },
+    "scale": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "scale",
+        "description": "scale"
+    },
+    "sound": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "sound",
+        "description": "sound"
+    },
+    "stage": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "stage",
+        "description": "stage"
+    },
+    "state": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "state",
+        "description": "state"
+    },
+    "stepCount": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "stepCount",
+        "description": "stepCount"
+    },
+    "stepping": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "stepping",
+        "description": "stepping"
+    },
+    "time": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "time",
+        "description": "时间"
+    },
+    "transparent": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "transparent",
+        "description": "透明度"
+    },
+    "tweens": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "tweens",
+        "description": "动画管理"
+    },
+    "width": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "width",
+        "description": "宽度"
+    },
+    "world": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "world",
+        "description": "world"
+    },
+    "destroy": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "destroy(${1})",
+        "description": "destroy"
+    },
+    "disableStep": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "disableStep(${1})",
+        "description": "disableStep"
+    },
+    "enableStep": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "enableStep(${1})",
+        "description": "enableStep"
+    },
+    "step": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "step(${1})",
+        "description": "step"
+    },
+    "alpha": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "alpha",
+        "description": "alpha"
+    },
+    "cacheAsBitmap": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "cacheAsBitmap",
+        "description": "cacheAsBitmap"
+    },
+    "cameraOffset": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "cameraOffset",
+        "description": "cameraOffset"
+    },
+    "children": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "children",
+        "description": "children"
+    },
+    "classType": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "classType",
+        "description": "classType"
+    },
+    "cursor": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "cursor",
+        "description": "cursor"
+    },
+    "cursorIndex": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "cursorIndex",
+        "description": "cursorIndex"
+    },
+    "enableBody": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "enableBody",
+        "description": "enableBody"
+    },
+    "enableBodyDebug": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "enableBodyDebug",
+        "description": "enableBodyDebug"
+    },
+    "exists": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "exists",
+        "description": "exists"
+    },
+    "filterArea": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "filterArea",
+        "description": "filterArea"
+    },
+    "filters": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "filters",
+        "description": "filters"
+    },
+    "fixedToCamera": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "fixedToCamera",
+        "description": "是否固定摄像机"
+    },
+    "hash": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "hash",
+        "description": "hash"
+    },
+    "hitArea": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "hitArea",
+        "description": "这是一个定义的区域，将会接受鼠标或者触摸的事件"
+    },
+    "ignoreDestroy": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "ignoreDestroy",
+        "description": "ignoreDestroy 属性设置为 true 的组，会忽略所有 destroy 方法"
+    },
+    "length": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "length",
+        "description": "length"
+    },
+    "mask": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "mask",
+        "description": "为显示对象设置一个遮罩。若要移除遮罩，请将该属性设置为空。"
+    },
+    "name": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "name",
+        "description": "该组的名称，调试时有用"
+    },
+    "onDesteoy": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "onDesteoy",
+        "description": "该组被摧毁时，发送该信号。"
+    },
+    "pendingDestroy": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "pendingDestroy",
+        "description": "如果为 true ，在下次更新时，将会销毁该组。"
+    },
+    "physycsBodyType": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "physycsBodyType",
+        "description": "enableBody 属性为 true 时，使用的物理引擎。"
+    },
+    "physicsSortDirection": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "physicsSortDirection",
+        "description": "如果组里包含 Arcade 物理引擎的精灵，可以通过该属性自定义排序方向。"
+    },
+    "physicsType": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "physicsType",
+        "description": "对象的常量物理体类型。"
+    },
+    "pivot": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "pivot",
+        "description": "显示对象旋转的支点。"
+    },
+    "position": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "position",
+        "description": "对象相对于父元素的坐标。"
+    },
+    "renderable": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "renderable",
+        "description": "对象是否可以渲染"
+    },
+    "rotation": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "rotation",
+        "description": "对象旋转的弧度。"
+    },
+    "visible": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "visible",
+        "description": "对象的可见性"
+    },
+    "worldAlpha": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "worldAlpha",
+        "description": "对象的可见性"
+    },
+    "worldPosition": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "worldPosition",
+        "description": "显示对象基于游戏世界变换的坐标"
+    },
+    "worldRotation": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "worldRotation",
+        "description": "显示对象基于游戏世界变换的旋转弧度。"
+    },
+    "worldScale": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "worldScale",
+        "description": "显示对象基于游戏世界变换的缩放比例。"
+    },
+    "worldVisible": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "worldVisible",
+        "description": "精灵是否全局可见。"
+    },
+    "x": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "x",
+        "description": "显示对象相对于父元素的x轴坐标。"
+    },
+    "y": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "y",
+        "description": "显示对象相对于父元素的y轴坐标。"
+    },
+    "addChild": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "addChild(${1})",
+        "description": "向容器添加子元素"
+    },
+    "addChildAt": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "addChildAt(${1},${2})",
+        "description": "向容器中的指定索引添加子元素。"
+    },
+    "getBounds": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "getBounds(${1})",
+        "description": "获取显示对象容器的矩形边界。"
+    },
+    "getChildAt": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "getChildAt(${1})",
+        "description": "返回指定索引的子元素。"
+    },
+    "getLocalBounds": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "getLocalBounds(${1})",
+        "description": "获取显示对象容器的非局部矩形边界。"
+    },
+    "preUpdate": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "preUpdate()",
+        "description": "空方法，被需要它的类重写。"
+    },
+    "removeChild": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "removeChild(${1})",
+        "description": "从容器中移除一个子元素。"
+    },
+    "removeChildAt": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "removeChildAt(${1})",
+        "description": "从容器中移除一个指定索引的子元素。"
+    },
+    "removeChildren": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "removeChildren(${1},${2})",
+        "description": "移除开始索引到结束索引范围内的所有子元素。"
+    },
+    "removeStageReference": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "removeStageReference()",
+        "description": "移除容器及其所有子元素当前舞台的引用。"
+    },
+    "setChildIndex": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "setChildIndex(${1},${2})",
+        "description": "更改容器中指定子元素的索引。"
+    },
+    "setStageReference": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "setStageReference(${1})",
+        "description": "设置容器的舞台引用。"
+    },
+    "swapChildren": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "swapChildren(${1},${2})",
+        "description": "交换容器中2个子元素的位置。"
+    },
+    "toGlobal": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "toGlobal(${1})",
+        "description": "计算显示对象的全局位置。"
+    },
+    "toLocal": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "toLocal(${1},${2})",
+        "description": "计算显示对象相对于另一点的局部位置。"
+    },
+    "updateCache": {
+        "scope": "javascript",
+        "prefix": ".",
+        "body": "updateCache()",
+        "description": "生成并更新此对象的缓存精灵。"
     }
 }
