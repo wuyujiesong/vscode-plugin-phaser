@@ -54,5 +54,20 @@
             "game.physics.arcade.enable($1)"
         ],
         "description": "game.physics.arcade.enable"
+    },
+    "Text": {
+        "scope": "javascript",
+        "prefix": "tex",
+        "body": [
+            "Text"
+        ],
+        "description": "Text"
+    },
+    "Text.": {
+        "scope": "javascript",
+        "prefix": "Text.",
+        "body": [
+            "${1|align,alive,anchor,angle,animations,autoCull,autoRound,blendMode,body,bottom,boundsAlignH,boundsAlignV,cameraOffset,canvas,centerX,centerY,checkWorldBounds,children,colors,components,context,cropRect,cssFont,damage,data,debug,deltaX,deltaY,deltaZ,destroyPhase,events,exists,fill,fixedToCamera,font,,fontSize,fontStyle,fontStyles,fontVariant,fontWeight,fontWeights,frame,frameName,fresh,game,heal,health,height,ignoreChildInput,inCamera,inputEnabled,inWorld,left,lifespan,lineSpacing,maxHealth,name,offsetX,offsetY,outOfBoundsKill,outOfCameraBoundsKill,padding,pendingDestroy,physicsType,previousPosition,previousRotation,resolution,right,scaleMax,scaleMin,setHealth,shader,shadowBlur,shadowColor,shadowFill,shadowOffsetX,shadowOffsetY,shadowStroke,smoothed,stroke,strokeColors,strokeThickness,tabs,text,texture,tint,tintedTexture,top,transformCallback,transformCallbackContext,type,useAdvancedWrap,width,wordWrap,wordWrapWidth,world,x,y,z,addChild(),addChildAt(),addColor(),addFontStyle(),addFontWeight(),addStrokeColor(),alignIn(),alignTo(),bringToTop(),clearColors(),clearFontValues(),contains(),crop(),destroy(),getBounds(),getChildAt(),getChildIndex(),getLocalBounds(),kill(),loadTexture(),moveDown(),moveUp(),overlap(),parseList(),play(),precalculateWordWrap(),removeChild(),removeChildAt(),reset(),resetFrame(),resizeFrame(),revive(),sendToBack(),setChildIndex(),setFrame(),setScaleMinMax(),setShadow(),setStyle(),setText(),setTextBounds(),setTexture(),swapChildren(),update(),updateCrop(),updateShadow(),|}"
+        ]
     }
 }
